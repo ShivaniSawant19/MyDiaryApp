@@ -1,0 +1,110 @@
+textarea {
+    resize: none;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.float-btn {
+    position: absolute;
+    right: 15px;
+    top: 36px;
+}
+
+.edit-delete {
+    right: 25px;
+}
+
+.btn {
+    border-radius: 100%;
+    border-style: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #0d6efd;
+}
+
+.add-btn {
+    background-color: #0d6efd;
+    height: 60px;
+    width: 60px;
+}
+
+.edit-btn {
+    background-color: #0d6efd;
+    height: 40px;
+    width: 40px;
+    margin: auto 5px;
+}
+
+.delete-btn {
+    background-color: crimson;
+    height: 40px;
+    width: 40px;
+}
+
+.delete-btn:hover {
+    color: crimson;
+}
+
+.card .card-header .card-body {
+    border-radius: 5px;
+}
+
+.card-header {
+    mix-blend-mode:hard-light;
+}
+
+.colors {
+    text-align: center;
+}
+
+.colors span {
+    padding: 10px 18px;
+    margin: auto 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.colors span.active {
+    border: 2px solid #fff;
+    scale: 1.15;
+}
+
+.primary {
+    background-color: #303030;
+}
+
+.yellow {
+    background-color: rgb(121, 121, 21);
+}
+
+.red {
+    background-color: rgb(122, 47, 47);
+}
+
+.blue {
+    background-color: rgb(40, 65, 141);
+}
+
+.green {
+    background-color: rgb(37, 109, 37);
+}
+
+.cyan {
+    background-color: rgb(44, 139, 139);
+}
+
+.purple {
+    background-color: rgb(139, 32, 139);
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 0.9rem;
+    position: absolute;
+    right: 3px;
+    bottom: -15px;
+}

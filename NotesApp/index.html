@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/5ab07a6bfb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>NotesApp</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+      <center><h3>Shivani's Daily Diary Updates</h3></center>  
+        <div class="card text-white mb-3" style="max-width: 20rem;">
+            <div id="editor">
+                <form autocomplete="off">
+                    <div class="card-header">
+                        <input id="note-title" class="form-control-plaintext title" type="text" placeholder="Title">
+                    </div>
+                    <div class="card-body">
+                        <textarea id="note-description" class="form-control-plaintext" rows="3"
+                            placeholder="Note"></textarea>
+                        <div class="colors">
+                            <span onclick="setColor('primary')" class="primary"></span>
+                            <span onclick="setColor('yellow')" class="yellow"></span>
+                            <span onclick="setColor('red')" class="red"></span>
+                            <span onclick="setColor('blue')" class="blue"></span>
+                            <span onclick="setColor('green')" class="green"></span>
+                            <span onclick="setColor('cyan')" class="cyan"></span>
+                            <span onclick="setColor('purple')" class="purple"></span>
+                        </div>
+                    </div>
+                    <button type="submit" id="add-edit" class="float-btn btn add-btn">
+                        <i class="fa-solid fa-plus fa-2xl"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="notes"></div>
+    </div>
+</body>
+<script src="./scripts/index.js" type="module"></script>
+
+</html>
